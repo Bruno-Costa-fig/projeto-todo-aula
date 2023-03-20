@@ -13,9 +13,9 @@ function App() {
     /* 
       1 [x] receber o texto da tarefa
       2 [x] criar o objeto tarefa
-      3 [] set na lista de tarefas*
-        3.1 [] criar uma nova lista com todas as tarefas
-        3.2 [] passar a nova lista para o set
+      3 [x] set na lista de tarefas*
+        3.1 [x] criar uma nova lista com todas as tarefas
+        3.2 [x] passar a nova lista para o set
     */
     const novaTarefa = {id: listaDeTarefas.length + 1, texto: tarefa, finalizado: false}
 
