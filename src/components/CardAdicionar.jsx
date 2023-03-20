@@ -10,7 +10,6 @@ function CardAdicionar({adicionarTarefa}) {
     const [tarefa, setTarefa] = useState("");
 
     const handleAdicionar = (evento) => {
-        debugger
         evento.preventDefault()
         if(tarefa != ""){
             adicionarTarefa(tarefa)
@@ -21,6 +20,7 @@ function CardAdicionar({adicionarTarefa}) {
     return (
         <div>
         <input
+            placeholder="adicionar tarefa"
             type="text"
             value={tarefa}
             onChange={(e) => setTarefa(e.target.value)}
